@@ -82,7 +82,8 @@ h1 {
     align-items: center;
 }
 
-.signup-btn:hover {
+.signup-btn,
+.signup-btn2:hover {
     cursor: pointer;
 }
 
@@ -140,25 +141,35 @@ a {
 
 .signup {
     background-color: #3882f6;
-    margin: 32px 12%;
-    border-radius: 50px;
+    margin: 16px 12%;
+    margin-bottom: 80px;
+    border-radius: 10px;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f9f9f9;
+    font-size: 18px;
+    padding: 50px 0;
+}
+
+.signup h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.signup p {
+    margin: 0;
 }
 
 .signup-btn2 {
-    padding: 16px;
+    padding: 12px;
     background-color: #3882f6;
     color: #f9f9f9;
     border: 2px solid #f9faf8;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 700;
-    padding: 10px 25px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 0;
+    flex: 0 0 auto;
 }
 
 .footer {
