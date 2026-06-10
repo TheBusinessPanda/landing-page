@@ -53,16 +53,16 @@ h1 {
 }
 
 .header-img {
-    width: 650px;
+    width: 100%;
+    max-width: 650px;
     height: auto;
     border-radius: 5%;
-    flex-grow: 1 1 650px;
     margin: 20px 0;
     object-fit: cover;
 }
 
 .about {
-    width: 1000px;
+    /* width: 1000px; */
     flex: 1;
     margin-right: 20px;
 }
@@ -83,7 +83,7 @@ h1 {
 }
 
 .signup-btn,
-.signup-btn2:hover {
+.signup-btn2 {
     cursor: pointer;
 }
 
